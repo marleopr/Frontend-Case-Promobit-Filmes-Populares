@@ -1,4 +1,5 @@
 import styled from "styled-components"
+import "../../constants/theme.css";
 
 export const Header = styled.div`
   display: flex;

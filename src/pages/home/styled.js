@@ -134,8 +134,8 @@ export const Main = styled.div`
 
 export const Footer = styled.div`
     /* border: solid orange; */
-    background-color: #21D4FD;
-    background-image: linear-gradient(19deg, #ffffff 0%, #217dff 100%);
+    /* background-color: #21D4FD; */
+    /* background-image: linear-gradient(19deg, #ffffff 0%, #217dff 100%); */
     /* display: flex; */
     /* flex-direction: row; */
     width: 100vw;

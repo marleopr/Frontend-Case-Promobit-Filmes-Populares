@@ -7,8 +7,6 @@ import { BASE_IMG } from "../../constants/BASE_IMG";
 import * as s from "./styled";
 import { API_KEY } from "../../constants/API_KEY";
 import { convertDate } from "../../hooks/convertDate";
-import dmdb from "../../assets/img/tmdb-logo.png"
-import dmdbFooter from "../../assets/img/tmdb-logo-footer.png"
 
 export default function HomePage() {
     const navigate = useNavigate();
@@ -105,9 +103,6 @@ export default function HomePage() {
 
     return (
         <s.Body>
-            <s.Header>
-                <s.Logo src={dmdb}></s.Logo>
-            </s.Header>
             <s.Main>
                 {
                     movie.map((movie) => {
@@ -131,14 +126,6 @@ export default function HomePage() {
             <s.PaginationStyle>
                 {Pagination()}
             </s.PaginationStyle>
-            <s.Footer>
-                <s.LogoFooter src={dmdbFooter}></s.LogoFooter>
-                {/* <s.TextFooter>• © 2022 by Márleo Piber •</s.TextFooter> */}
-                {/* <s.TextFooter><a href="https://github.com/marleopr" target="_blank" rel="noopener noreferrer">© 2022 by Márleo Piber</a></s.TextFooter> */}
-                <s.TextFooter>
-                    <a href="https://github.com/marleopr" target="_blank" rel="noopener noreferrer">© 2022 by Márleo Piber</a>
-                </s.TextFooter>
-            </s.Footer>
         </s.Body>
     )
 }

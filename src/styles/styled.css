@@ -1,0 +1,110 @@
+/* Footer */
+.social-buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background-color: #f2f2f2; */
+  /* box-shadow: 0px 0px 15px #00000027; */
+  /* padding: 15px 10px; */
+  /* border-radius: 5em; */
+}
+
+.social-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin: 0 10px;
+  background-color: #fff;
+  box-shadow: 0px 0px 4px #00000027;
+  transition: 0.3s;
+}
+
+.social-button:hover {
+  background-color: #f2f2f2;
+  box-shadow: 0px 0px 6px 3px #00000027;
+}
+
+.social-buttons svg {
+  transition: 0.3s;
+  height: 20px;
+}
+
+.portfolio {
+  background-color: #3b5998;
+}
+
+.portfolio svg {
+  fill: #f2f2f2;
+}
+
+.portfolio:hover svg {
+  fill: #3b5998;
+}
+
+.github {
+  background-color: #333;
+}
+
+.github svg {
+  width: 25px;
+  height: 25px;
+  fill: #f2f2f2;
+}
+
+.github:hover svg {
+  fill: #333;
+}
+
+.linkedin {
+  background-color: #0077b5;
+}
+
+.linkedin svg {
+  fill: #f2f2f2;
+}
+
+.linkedin:hover svg {
+  fill: #0077b5;
+}
+
+.whatsapp {
+  background-color: #25d366;
+}
+
+.whatsapp svg {
+  fill: #f2f2f2;
+}
+
+.whatsapp:hover svg {
+  fill: #25d366;
+}
+
+
+/* BARRA DE ROLAGEM */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #212121;
+}
+
+::-webkit-scrollbar-track:hover {
+  background: #2b2b2b;
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--color-blue);
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--color-blue-nav);
+}
+
+::-webkit-scrollbar-thumb:active {
+  background: var(--color-blue-navy);
+}

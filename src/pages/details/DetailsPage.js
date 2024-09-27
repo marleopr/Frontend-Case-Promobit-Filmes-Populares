@@ -6,11 +6,9 @@ import { BASE_IMG } from "../../constants/BASE_IMG"
 import { BASE_URL } from "../../constants/BASE_URL"
 import { convertDate, getYear } from "../../hooks/convertDate"
 import { convertTime } from "../../hooks/converTime"
-import { goToHomePage } from "../../routes/coordinator"
 import * as s from "./styled"
-import dmdb from "../../assets/img/tmdb-logo.png"
 import { idMaker } from "../../hooks/idMaker"
-import dmdbFooter from "../../assets/img/tmdb-logo-footer.png"
+
 
 export default function DetailsPage() {
     const navigate = useNavigate()
@@ -123,9 +121,6 @@ export default function DetailsPage() {
 
     return (
         <s.Body>
-            <s.Header>
-                <s.Logo src={dmdb} onClick={() => goToHomePage(navigate)} alt={"Voltar ao início"}></s.Logo>
-            </s.Header>
             <s.Horizon>
                 <s.InfoFilm>
                     <s.TitleInfo>
@@ -166,14 +161,6 @@ export default function DetailsPage() {
                     }
                 </s.CreditsDiv>
             </s.About>
-            <s.Footer>
-                <s.LogoFooter src={dmdbFooter}></s.LogoFooter>
-                {/* <s.TextFooter>• © 2022 by Márleo Piber •</s.TextFooter> */}
-                {/* <s.TextFooter><a href="https://github.com/marleopr" target="_blank" rel="noopener noreferrer">© 2022 by Márleo Piber</a></s.TextFooter> */}
-                <s.TextFooter>
-                    <a href="https://github.com/marleopr" target="_blank" rel="noopener noreferrer">© 2022 by Márleo Piber</a>
-                </s.TextFooter>
-            </s.Footer>
         </s.Body>
     )
 }
