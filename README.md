@@ -2,7 +2,7 @@
 Case Frontend Filmes Populares de Promobit
 
 # `Link`
-https://filmes-marleo.surge.sh
+https://filmes-marleo.vercel.app/
 
 
 # `Descrição`
@@ -41,8 +41,6 @@ Márleo Piber da Rosa.
 
 # `Imagens`
 ### Página Home
-<img src="src\assets\img\HomePage1.png"/>
-<img src="src\assets\img\HomePage2.png"/>
+<img src="src\assets\img\HomePage.png"/>
 ### Página Detalhes
-<img src="src\assets\img\DetalhesPage1.png"/>
-<img src="src\assets\img\DetalhesPage2.png"/>
+<img src="src\assets\img\DetalhesPage.png"/>
