@@ -42,5 +42,6 @@ Márleo Piber da Rosa.
 # `Imagens`
 ### Página Home
 <img src="src\assets\img\HomePage.png"/>
+
 ### Página Detalhes
 <img src="src\assets\img\DetalhesPage.png"/>
