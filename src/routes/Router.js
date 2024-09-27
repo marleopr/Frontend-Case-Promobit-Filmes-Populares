@@ -5,18 +5,20 @@ import SearchPage from "../pages/search/SearchPage"
 import ErrorPage from "../pages/error/ErrorPage.tsx"
 import HeaderV2 from "../components/header/HeaderV2.tsx"
 import Footer from "../components/Footer.tsx"
+import EasterEgg from "../components/EasterEgg.js"
 
 export const Router = () => {
   return (
     <BrowserRouter>
-    <HeaderV2/>
+      <HeaderV2 />
       <Routes>
-        <Route index element={<HomePage/>}/>
-        <Route path="details/:id" element={<DetailsPage/>}/>
-        <Route path="search" element={<SearchPage/>}/>
-        <Route path="*" element={<ErrorPage/>}/>
+        <Route index element={<HomePage />} />
+        <Route path="details/:id" element={<DetailsPage />} />
+        <Route path="search" element={<SearchPage />} />
+        <Route path="*" element={<ErrorPage />} />
       </Routes>
-      <Footer/>
+      <Footer />
+      <EasterEgg />
     </BrowserRouter>
   )
 }
